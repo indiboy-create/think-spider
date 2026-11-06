@@ -1,0 +1,40 @@
+{
+    "name": "youvision/think-spider",
+    "description": "ThinkPHP 8 搜索引擎蜘蛛访问统计，支持百度、Google、搜狗、Bing、神马、头条、360、Yandex",
+    "type": "library",
+    "keywords": [
+        "thinkphp",
+        "thinkphp8",
+        "spider",
+        "crawler",
+        "statistics",
+        "baiduspider",
+        "googlebot"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youvision\\ThinkSpider\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Youvision\\ThinkSpider\\Service"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "@php tests/verify.php"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
