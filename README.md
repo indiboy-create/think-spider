@@ -1,3 +1,8 @@
+## ThinkPHP-PanGu - 盘古ThinkPHP开源索引!
+面向 ThinkPHP 的开源工程索引：组件、框架、服务与发布工具，按能力组织，持续整理。
+仓库地址：**<https://github.com/indiboy-create/ThinkPHP-PanGu/>**
+在线站点：**<https://indiboy-create.github.io/ThinkPHP-PanGu/>**
+
 # youvision/think-spider
 
 ThinkPHP 8 搜索引擎蜘蛛访问统计组件，自动识别并记录各大搜索引擎蜘蛛的访问，提供按引擎、按日期、按站点的统计数据。

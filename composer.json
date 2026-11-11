@@ -1,5 +1,15 @@
 {
     "name": "youvision/think-spider",
+    "authors": [
+        {
+            "name": "indiboy-create",
+            "homepage": "https://github.com/indiboy-create"
+        },
+        {
+            "name": "AI",
+            "role": "Developer"
+        }
+    ],
     "description": "ThinkPHP 8 搜索引擎蜘蛛访问统计，支持百度、Google、搜狗、Bing、神马、头条、360、Yandex",
     "type": "library",
     "keywords": [
